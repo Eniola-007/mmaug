@@ -1,0 +1,28 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+*.p12
+*.p7b
+*.cer
+*.crt
+secrets/
+
+# Editor and OS generated files
+.idea/
+.DS_Store
+Thumbs.db
